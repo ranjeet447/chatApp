@@ -2,6 +2,7 @@ const express = require('express');
 const http = require('http');
 const path = require('path');
 const socketIO = require('socket.io');
+const moment = require('moment');
 const {generateMessage,generateLocationMessage} = require('./utils/message');
 
 var app = express();
